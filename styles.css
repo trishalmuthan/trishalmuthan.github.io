@@ -1,5 +1,19 @@
 body {
-    background-color: #13243b;
+    background-color: #111217;
     color: #a8aaad;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color:#15c271;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+#content {
+    margin-left: 20%;
+    margin-right: 20%;
 }
