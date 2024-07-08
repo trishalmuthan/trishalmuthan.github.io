@@ -1,18 +1,35 @@
 body {
     background-color: #111217;
-    color: #a8aaad;
+    color: #bebec0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 a {
     color:#15c271;
     text-decoration: none;
+    transition: 0s color;
+}
+
+a:hover {
+    color:#00ff88;
+    transition-duration:400ms
 }
 
 h1 {
     text-align: center;
     font-size:xxx-large;
     color:white;
+}
+
+p {
+    color:#bebec0;
+    text-decoration: none;
+    transition: 0s color;
+}
+
+p:hover {
+    color:#e0e0e2;
+    transition-duration:1000ms;
 }
 
 #content {
